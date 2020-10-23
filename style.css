@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	margin-top: 50px;
+	font-family: sans-serif;
+}
+
+header {
+	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	line-height: 50px;
+	background-color: #eee;
+}
+
+header * {
+	display: inline;
+	height: 50px;	
+}
+
+canvas {
+	border:1px solid #d3d3d3;
+	background-color: #f1f1f1;
+}
+
+header u1 {
+	padding: 0;
+}
+
+header li {
+		margin-left: 20px;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+}
+
+.current {
+	font-weight: bold;
+} 
+
+section {
+	height: 100vh;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 50px;
+}
